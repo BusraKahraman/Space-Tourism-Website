@@ -1,0 +1,16 @@
+$gap: 0;
+
+.flex {
+  display: flex;
+  gap: $gap, 1rem;
+}
+
+.grid {
+  display: grid;
+  gap: $gap, 1rem;
+}
+
+.container {
+  padding-inline: 2em;
+  max-width: 80rem;
+}
